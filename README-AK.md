@@ -20,7 +20,7 @@ Import do repo · Framework Preset **Other** · Root Directory na raiz · sem Bu
 Renderiza, sem requisições a CDN, UTMs/`src`/`sck` chegam ao checkout, vídeo de depoimento abre, mobile 390 px sem rolagem horizontal.
 
 ## Pendências
-- [ ] URL real da Vercel/domínio: trocar `SEU-DOMINIO.com.br` (canonical, og:url, og:image, twitter:image) e fazer segundo commit
+- [x] URL real (https://cel-lp-v2.vercel.app) aplicada em canonical, og:url, og:image e twitter:image; trocar de novo se houver domínio próprio
 - [ ] ID do GTM (não há tag no export): inserir como 1ª coisa do `<head>` + `<noscript>` após `<body>`; Pixel Meta e GA4 dentro do GTM
 - [ ] Depoimentos: conferir nome/segmento/pilar (pendência de copy citada no DEPLOY.md)
 - [ ] `robots.txt` hoje `Allow: /`; se for só tráfego pago, `Disallow: /` + `noindex` [DECIDIR]
