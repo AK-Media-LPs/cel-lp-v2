@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CEL · Como Empreender Lucrando — Faça sua empresa lucrar sem depender de você</title>
+<meta name="description" content="Os 8 pilares da Estratégia WIN, de Felipe Winston, para sua empresa lucrar sem depender das suas horas. 75 aulas de ~5 min, 10 masterclasses e grupo de donos. R$197 com garantia de 15 dias.">
+<!-- TODO: trocar SEU-DOMINIO.com.br pela URL real (canonical, og:url, og:image, twitter:image) -->
+<link rel="canonical" href="https://SEU-DOMINIO.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="CEL · Como Empreender Lucrando">
+<meta property="og:title" content="CEL · Faça sua empresa lucrar sem depender de você">
+<meta property="og:description" content="O método de quem quase quebrou trabalhando 16h por dia e depois vendeu a própria empresa para uma multinacional. 8 pilares, R$197, garantia de 15 dias.">
+<meta property="og:url" content="https://SEU-DOMINIO.com.br/">
+<meta property="og:image" content="https://SEU-DOMINIO.com.br/assets/og-cel.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CEL · Faça sua empresa lucrar sem depender de você">
+<meta name="twitter:description" content="8 pilares para sua empresa lucrar sem depender das suas horas. R$197 · garantia de 15 dias.">
+<meta name="twitter:image" content="https://SEU-DOMINIO.com.br/assets/og-cel.jpg">
+<link rel="icon" href="/favicon.ico">
+<style>x-dc{display:none!important}</style>
+<script src="vendor/react.production.min.js" defer></script>
+<script src="vendor/react-dom.production.min.js" defer></script>
+<script src="vendor/babel.min.js" defer></script>
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script src="./support.js" defer></script>
+<script src="./image-slot.js" defer></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+@font-face{font-family:"Roboto";src:url(./assets/fonts/Roboto-Regular.ttf) format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"Roboto";src:url(./assets/fonts/Roboto-Italic.ttf) format("truetype");font-weight:400;font-style:italic}
+@font-face{font-family:"Roboto";src:url(./assets/fonts/Roboto-Medium.ttf) format("truetype");font-weight:500}
+@font-face{font-family:"Roboto";src:url(./assets/fonts/Roboto-Bold.ttf) format("truetype");font-weight:700}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#f7f8fa;color:#151a2b;font-family:"Roboto",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:#003bff}
+a:hover{color:#0030d6}
+p,h1,h2,h3{margin:0}
+</style>
+</helmet>
+
+<div style="font-family:Roboto,system-ui,sans-serif;font-size:17px;line-height:1.65;color:#151a2b;background:#f7f8fa;overflow-x:hidden">
+
+<!-- 01 HERO -->
+<section data-screen-label="01 Hero" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));background:#f7f8fa">
+  <div style="display:flex;flex-direction:column;justify-content:center;gap:24px;padding:clamp(40px,7vw,96px) clamp(20px,6vw,88px)">
+    <img src="./assets/cel-logo-preto.svg" alt="CEL — Como Empreender Lucrando" style="height:clamp(56px,6vw,72px);width:auto;align-self:flex-start">
+    <h1 style="font-weight:700;font-size:clamp(36px,5vw,58px);line-height:1.08;letter-spacing:-.03em;text-wrap:balance;max-width:16ch">Sua empresa fatura todo mês. <span style="color:#003bff">Então por que o dinheiro nunca sobra?</span></h1>
+    <p style="font-size:clamp(17px,1.5vw,19px);line-height:1.6;color:#3d4357;max-width:46ch;text-wrap:pretty">O método de lucratividade de quem estudou em Harvard e vendeu a própria empresa para uma multinacional americana.</p>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <a href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:16px 28px;background:#003bff;color:#ffffff;font:700 16px/1.3 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none;width:100%;max-width:400px" style-hover="background:#0030d6">Quero o método por R$197</a>
+      <p style="font-size:13px;line-height:1.5;color:#6b7186">Pagamento único · Acesso imediato · Garantia de 15 dias</p>
+    </div>
+  </div>
+  <div style="position:relative;min-height:clamp(380px,52vw,720px);border-bottom-left-radius:clamp(24px,4vw,48px);overflow:hidden;background:#03050d">
+    <img src="./assets/felipe-hero.jpg" alt="Felipe Winston" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:22% center">
+  </div>
+</section>
+
+<div data-screen-label="Faixa" style="overflow:hidden;background:#003bff;color:#ffffff;padding:20px 0">
+  <div data-marquee="" style="display:flex;width:max-content"><div style="display:flex;align-items:center;gap:40px;padding-right:40px;font:700 15px/1 Roboto,sans-serif;letter-spacing:.1em;white-space:nowrap"><span>HARVARD BUSINESS SCHOOL</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>EXIT PARA MULTINACIONAL EM 2016</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>+200 EMPRESAS ACOMPANHADAS</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>8 PILARES</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>75 AULAS DE ~5 MIN</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>GARANTIA DE 15 DIAS</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span></div><div style="display:flex;align-items:center;gap:40px;padding-right:40px;font:700 15px/1 Roboto,sans-serif;letter-spacing:.1em;white-space:nowrap"><span>HARVARD BUSINESS SCHOOL</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>EXIT PARA MULTINACIONAL EM 2016</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>+200 EMPRESAS ACOMPANHADAS</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>8 PILARES</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>75 AULAS DE ~5 MIN</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span><span>GARANTIA DE 15 DIAS</span><span style="width:6px;height:6px;border-radius:50%;background:#00acff"></span></div></div>
+</div>
+
+<!-- 02 PROBLEMA -->
+<section data-screen-label="02 Problema" style="padding:clamp(72px,10vw,128px) 20px">
+  <div style="max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:48px">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center;align-items:center">
+      <span style="font-size:15px;color:#7a8095">Problema</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em;text-wrap:balance">Sua empresa cresce. E você afunda junto?</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:24px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="height:220px;border:1px dashed #cfd3dc;border-radius:10px;background:#eef0f4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px">
+          <span style="font-weight:700;font-size:88px;line-height:1;letter-spacing:-.04em;color:#151a2b" data-count="16" data-suffix="h">16h</span>
+          <span style="font-size:14px;color:#6b7186">por dia · 7 dias por semana</span>
+        </div>
+        <h3 style="font-weight:700;font-size:22px;letter-spacing:-.01em;margin-top:8px">Refém da operação</h3>
+        <p style="color:#6b7186;text-wrap:pretty">Três dias fora e o telefone não para. Contratou gente boa e toda decisão ainda volta pra sua mesa.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="height:220px;border:1px dashed #cfd3dc;border-radius:10px;background:#eef0f4;display:flex;align-items:flex-end;justify-content:center;gap:28px;padding:28px 24px 22px">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+            <div style="display:flex;align-items:flex-end;gap:6px;height:130px"><span data-bar="" style="width:18px;height:40%;background:#003bff;border-radius:2px"></span><span data-bar="" style="width:18px;height:60%;background:#003bff;border-radius:2px"></span><span data-bar="" style="width:18px;height:80%;background:#003bff;border-radius:2px"></span><span data-bar="" style="width:18px;height:100%;background:#003bff;border-radius:2px"></span></div>
+            <span style="font-size:13px;color:#3d4357">Faturamento</span>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+            <div style="display:flex;align-items:flex-end;gap:6px;height:130px"><span data-bar="" style="width:18px;height:14%;background:#b9bfcc;border-radius:2px"></span><span data-bar="" style="width:18px;height:12%;background:#b9bfcc;border-radius:2px"></span><span data-bar="" style="width:18px;height:15%;background:#b9bfcc;border-radius:2px"></span><span data-bar="" style="width:18px;height:11%;background:#d6413a;border-radius:2px"></span></div>
+            <span style="font-size:13px;color:#3d4357">Lucro</span>
+          </div>
+        </div>
+        <h3 style="font-weight:700;font-size:22px;letter-spacing:-.01em;margin-top:8px">Fatura, mas não sobra</h3>
+        <p style="color:#6b7186;text-wrap:pretty">O faturamento sobe todo ano. A sobra no caixa, no fim do mês, não acompanha.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="height:220px;border:1px dashed #cfd3dc;border-radius:10px;background:#eef0f4;display:flex;flex-direction:column;justify-content:center;gap:8px;padding:20px 28px">
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;background:#ffffff;border-radius:6px;font-size:13px"><span>Aprovar desconto</span><span style="font-weight:700;color:#003bff">→ você</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;background:#ffffff;border-radius:6px;font-size:13px"><span>Cliente reclamando</span><span style="font-weight:700;color:#003bff">→ você</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;background:#ffffff;border-radius:6px;font-size:13px"><span>Pagar fornecedor</span><span style="font-weight:700;color:#003bff">→ você</span></div>
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 12px;background:#ffffff;border-radius:6px;font-size:13px;opacity:.55"><span>Planejar o próximo ano</span><span style="font-weight:700;color:#d6413a">sem tempo</span></div>
+        </div>
+        <h3 style="font-weight:700;font-size:22px;letter-spacing:-.01em;margin-top:8px">Sem tempo pra estruturar</h3>
+        <p style="color:#6b7186;text-wrap:pretty">Você sabe que precisa parar e organizar a empresa. Só que nunca sobra o dia pra isso.</p>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:24px 48px;align-items:center;padding:clamp(32px,5vw,56px) clamp(24px,6vw,96px);background:#ffffff;border:1px dashed #cfd3dc;border-radius:16px">
+      <p style="font-weight:700;font-size:clamp(24px,2.8vw,30px);line-height:1.2;letter-spacing:-.02em">Eu sei como é, <span style="color:#8a90a3">já estive aí e pensei:</span></p>
+      <p style="font-size:17px;color:#6b7186;text-wrap:pretty">“Se eu não estiver lá, nada anda. Se eu estiver, não sobra tempo pra pensar no negócio.”</p>
+    </div>
+  </div>
+</section>
+
+<!-- 03 VIRADA -->
+<section data-screen-label="03 Virada" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));background:#0a1230;color:#ffffff">
+  <div style="display:flex;flex-direction:column;justify-content:center;gap:22px;padding:clamp(56px,8vw,112px) clamp(20px,6vw,88px)">
+    <span style="font-size:15px;color:#8f9bc4">Solução</span>
+    <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em;text-wrap:balance;max-width:18ch">E se o problema nunca foi falta de esforço?</h2>
+    <p style="color:#d4d9e8;max-width:48ch;text-wrap:pretty">Esforço você tem de sobra. É o primeiro a chegar, o último a sair e o único que resolve quando algo trava.</p>
+    <p style="color:#d4d9e8;max-width:48ch;text-wrap:pretty">Eu fiz a mesma coisa entre 2009 e 2011, com a empresa em crise: trabalhei mais. A empresa não melhorou na proporção do meu esforço. Eu só fiquei mais cansado.</p>
+    <p style="color:#d4d9e8;max-width:48ch;text-wrap:pretty">A saída foi trabalhar na coisa certa, na ordem certa.</p>
+    <p style="font-weight:700;color:#ffffff">Essa ordem tem nome: <span style="color:#00acff">Estratégia WIN.</span></p>
+  </div>
+  <div style="position:relative;min-height:420px;background:#111a3d">
+    <img src="./assets/felipe-solucao.jpg" alt="Felipe Winston conduzindo encontro com empresários" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%">
+  </div>
+</section>
+
+<!-- 04 APRESENTAÇÃO -->
+<section data-screen-label="04 Apresentação" style="padding:clamp(72px,10vw,128px) 20px">
+  <div style="max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:48px">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center;align-items:center">
+      <span style="font-size:15px;color:#7a8095">E antes que você diga:</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em;text-wrap:balance;max-width:22ch"><span style="color:#8a90a3">“Isso é coisa de empresa grande”,</span> deixa eu me apresentar.</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:24px">
+      <div style="border-radius:12px;overflow:hidden;background:#e7e9ee;min-height:440px">
+        <img src="./assets/felipe-retrato.jpg" alt="Felipe Winston" style="width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block">
+      </div>
+      <div style="display:flex;flex-direction:column;justify-content:center;gap:18px;padding:clamp(28px,4vw,48px);background:#ffffff;border:1px dashed #cfd3dc;border-radius:12px">
+        <h3 style="font-weight:700;font-size:clamp(26px,3vw,32px);line-height:1.15;letter-spacing:-.02em">Meu nome é Felipe Winston</h3>
+        <p style="color:#7a8095;text-wrap:pretty">Fui fundador e CEO da Mega Surgical, distribuidora de materiais médicos com nove filiais. <span style="color:#151a2b">Quase quebrei trabalhando 16 horas por dia — e, em 2016, vendi a empresa para uma multinacional americana de capital aberto.</span></p>
+        <p style="color:#7a8095;text-wrap:pretty">Passei pela Harvard Business School no programa para donos de empresa e, desde 2017, acompanhei mais de 200 PMEs brasileiras. <span style="color:#151a2b">Não aprendi isso em livro. Aprendi errando com dinheiro meu.</span></p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:18px;border-top:1px solid #e2e5eb">
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">Harvard · OPM 45</span>
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">Exit em 2016</span>
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">+200 empresas</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 05 MÉTODO -->
+<section data-screen-label="05 Método" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:40px;align-items:center;padding:clamp(20px,5vw,72px);background:#ffffff;border:1px dashed #cfd3dc;border-radius:16px">
+    <div style="display:flex;flex-direction:column;gap:20px">
+      <span style="font-size:15px;color:#7a8095">Método</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em;text-wrap:balance">Estratégia WIN: <span style="color:#8a90a3">os 8 pilares pra sua empresa lucrar sem depender das suas horas.</span></h2>
+      <p style="color:#7a8095;text-wrap:pretty">Ao contrário dos cursos de gestão que te enchem de teoria de manual…</p>
+      <p style="color:#7a8095;text-wrap:pretty">E que em uma semana viram mais um PDF esquecido na pasta de downloads…</p>
+      <p style="text-decoration:underline;text-underline-offset:3px;text-wrap:pretty">Aqui é ordem de aplicação — testada numa empresa real e depois em mais de 200 outras.</p>
+    </div>
+    <div style="padding:clamp(16px,3vw,28px) clamp(12px,3vw,24px) clamp(14px,2vw,20px);border:1px dashed #cfd3dc;border-radius:12px">
+      <div style="display:flex;align-items:flex-end;gap:6px;height:clamp(220px,40vw,300px)">
+        <sc-for list="{{ steps }}" as="s" hint-placeholder-count="8">
+          <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;height:100%">
+            <span style="font-weight:700;font-size:15px;color:#151a2b">{{ s.n }}</span>
+            <div data-bar="" style="width:100%;height:{{ s.h }};background:{{ s.bg }};border-radius:3px 3px 0 0"></div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="display:flex;justify-content:space-between;gap:12px;padding-top:10px;border-top:2px solid #151a2b;font:700 11px/1.3 Roboto,sans-serif;letter-spacing:.06em">
+        <span style="flex:none;color:#6b7186;white-space:nowrap">PILAR 1</span><span style="color:#003bff;text-align:right">LUCRO SEM DEPENDER DE VOCÊ</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 COMPARAÇÃO -->
+<section data-screen-label="06 Comparação" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div style="max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:40px;align-items:center">
+    <div style="display:flex;flex-direction:column;gap:12px;text-align:center;align-items:center">
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em;text-wrap:balance;max-width:24ch"><span style="color:#8a90a3">Você vai entender por que trabalha cada vez mais</span> e lucra cada vez menos.</h2>
+      <p style="color:#7a8095">E por que mentiram quando disseram que bastava se esforçar.</p>
+    </div>
+    <div style="width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px">
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#eef0f4;border-radius:12px">
+        <span style="font-weight:700;font-size:13px;letter-spacing:.08em;color:#6b7186">O QUE TODO DONO FAZ</span>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#d6413a;font-weight:700">✕</span><p style="color:#3d4357">Trabalha mais horas quando o negócio aperta</p></div>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#d6413a;font-weight:700">✕</span><p style="color:#3d4357">Atende todo tipo de cliente, inclusive os que dão prejuízo</p></div>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#d6413a;font-weight:700">✕</span><p style="color:#3d4357">Baixa preço pra competir</p></div>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#d6413a;font-weight:700">✕</span><p style="color:#3d4357">Começa todo mês do zero</p></div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;padding:28px;background:#ffffff;border:1.5px solid #003bff;border-radius:12px">
+        <span style="font-weight:700;font-size:13px;letter-spacing:.08em;color:#003bff">COM A ESTRATÉGIA WIN</span>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#003bff;font-weight:700">✓</span><p>Cresce o lucro sem colocar mais uma hora sua</p></div>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#003bff;font-weight:700">✓</span><p>Sabe exatamente quais clientes dão lucro</p></div>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#003bff;font-weight:700">✓</span><p>Tem um diferencial que o concorrente não copia</p></div>
+        <div style="display:flex;gap:12px"><span style="flex:none;color:#003bff;font-weight:700">✓</span><p>Tem receita recorrente e caixa previsível</p></div>
+      </div>
+    </div>
+    <a href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:16px 28px;background:#003bff;color:#ffffff;font:700 16px/1.3 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none;width:100%;max-width:400px" style-hover="background:#0030d6">Quero o método por R$197</a>
+  </div>
+</section>
+
+<!-- 07 DESEJO -->
+<section data-screen-label="07 Desejo" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div data-panel="" style="max-width:1000px;margin:0 auto;display:flex;flex-direction:column;gap:32px;align-items:center;text-align:center;padding:clamp(40px,6vw,72px) clamp(20px,4vw,48px);background:#0a1230;color:#ffffff;border-radius:20px">
+    <div style="display:flex;flex-direction:column;gap:8px">
+      <span style="font-size:15px;color:#8f9bc4">Então, se você quer</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em">Parar de sustentar a empresa com as suas horas</h2>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:760px">
+      <span data-pill="" style="display:flex;align-items:center;gap:10px;padding:10px 18px;border:1px dashed #4a5580;border-radius:99px;font-size:16px;line-height:1.35;text-align:left"><span style="flex:none;width:14px;height:14px;border:1.5px solid #00acff;border-radius:50%"></span>Parar de pagar pra atender cliente ruim</span>
+      <span data-pill="" style="display:flex;align-items:center;gap:10px;padding:10px 18px;border:1px dashed #4a5580;border-radius:99px;font-size:16px;line-height:1.35;text-align:left"><span style="flex:none;width:14px;height:14px;border:1.5px solid #00acff;border-radius:50%"></span>Sair da guerra de preço</span>
+      <span data-pill="" style="display:flex;align-items:center;gap:10px;padding:10px 18px;border:1px dashed #4a5580;border-radius:99px;font-size:16px;line-height:1.35;text-align:left"><span style="flex:none;width:14px;height:14px;border:1.5px solid #00acff;border-radius:50%"></span>Ter caixa previsível</span>
+      <span data-pill="" style="display:flex;align-items:center;gap:10px;padding:10px 18px;border:1px dashed #4a5580;border-radius:99px;font-size:16px;line-height:1.35;text-align:left"><span style="flex:none;width:14px;height:14px;border:1.5px solid #00acff;border-radius:50%"></span>Tirar férias sem o telefone tocar</span>
+      <span data-pill="" style="display:flex;align-items:center;gap:10px;padding:10px 18px;border:1px dashed #4a5580;border-radius:99px;font-size:16px;line-height:1.35;text-align:left"><span style="flex:none;width:14px;height:14px;border:1.5px solid #00acff;border-radius:50%"></span>Ter uma empresa que vale sem você</span>
+    </div>
+    <a href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:16px 28px;background:#003bff;color:#ffffff;font:700 16px/1.3 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none;width:100%;max-width:400px" style-hover="background:#1a4fff">O CEL é pra você</a>
+  </div>
+</section>
+
+<!-- 08 PILARES -->
+<section data-screen-label="08 Pilares" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div style="max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:48px">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center;align-items:center">
+      <span style="font-size:15px;color:#7a8095">O que você vai aprender</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em"><span style="color:#8a90a3">Conheça</span> os 8 pilares</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:40px;align-items:start">
+      <div style="display:flex;flex-direction:column;gap:24px">
+        <p style="font-weight:700;font-size:clamp(26px,3vw,34px);line-height:1.18;letter-spacing:-.025em;text-wrap:balance">75 aulas de ~5 minutos <span style="color:#8a90a3">pra aplicar entre uma reunião e outra.</span></p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">Clientes</span>
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">Margem</span>
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">Escala</span>
+          <span style="font-size:13px;padding:5px 12px;border:1px dashed #b9bfcc;border-radius:99px;color:#3d4357">Recorrência</span>
+        </div>
+        <a href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:16px 28px;background:#003bff;color:#ffffff;font:700 16px/1.3 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none;width:100%;max-width:400px" style-hover="background:#0030d6">Quero o método por R$197</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <sc-for list="{{ pilares }}" as="p" hint-placeholder-count="8">
+          <div style="background:#ffffff;border:1px dashed #cfd3dc;border-radius:10px">
+            <button onClick="{{ p.toggle }}" style="all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:16px;width:100%;min-height:68px;padding:18px 22px">
+              <span style="flex:none;font-weight:700;font-size:14px;color:#003bff">{{ p.n }}</span>
+              <span style="flex:1;font-weight:700;font-size:19px;letter-spacing:-.01em">{{ p.t }}</span>
+              <span style="flex:none;font-size:24px;line-height:1;color:#6b7186">{{ p.icon }}</span>
+            </button>
+            <sc-if value="{{ p.open }}" hint-placeholder-val="{{ false }}">
+              <p style="padding:0 22px 20px 52px;color:#6b7186;text-wrap:pretty">{{ p.d }}</p>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 BÔNUS -->
+<section data-screen-label="09 Bônus" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div data-panel="" style="max-width:1120px;margin:0 auto;display:flex;flex-direction:column;gap:36px;padding:clamp(40px,6vw,72px) clamp(20px,4vw,56px);background:#0a1230;color:#ffffff;border-radius:20px">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center">
+      <span style="font-size:15px;color:#8f9bc4">Bônus</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em">Você ainda recebe</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:14px">
+      <div style="display:flex;flex-direction:column;gap:10px;padding:28px;border:1px dashed #4a5580;border-radius:12px">
+        <span style="font-weight:700;font-size:44px;line-height:1;color:#00acff;letter-spacing:-.03em">10</span>
+        <h3 style="font-weight:700;font-size:21px;line-height:1.3">Masterclasses de aplicação</h3>
+        <p style="color:#b7bfd8;font-size:15px">Aprofundando cada frente do método.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;padding:28px;border:1px dashed #4a5580;border-radius:12px">
+        <span style="font-weight:700;font-size:44px;line-height:1;color:#00acff;letter-spacing:-.03em">1 ano</span>
+        <h3 style="font-weight:700;font-size:21px;line-height:1.3">Grupo de donos no Telegram</h3>
+        <p style="color:#b7bfd8;font-size:15px">Você não aplica sozinho: outros donos passando pelos mesmos pilares.</p>
+      </div>
+      <sc-if value="{{ showBonus }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;flex-direction:column;gap:10px;padding:28px;border:1px dashed #4a5580;border-radius:12px">
+          <span style="font-weight:700;font-size:44px;line-height:1;color:#00acff;letter-spacing:-.03em">8/8</span>
+          <h3 style="font-weight:700;font-size:21px;line-height:1.3">Diagnóstico dos 8 pilares</h3>
+          <p style="color:#b7bfd8;font-size:15px">Checklist pra pontuar sua empresa em cada pilar e saber por onde começar.</p>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</section>
+
+<!-- 10 DEPOIMENTOS -->
+<section data-screen-label="10 Depoimentos" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div style="max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:40px;align-items:center">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center">
+      <span style="font-size:15px;color:#7a8095">O que os alunos dizem</span>
+      <h2 style="font-weight:700;font-size:clamp(34px,5vw,56px);line-height:1.08;letter-spacing:-.035em">Depoimentos</h2>
+    </div>
+    <div style="width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:16px">
+      <sc-for list="{{ videos }}" as="v" hint-placeholder-count="3">
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="border-radius:12px;overflow:hidden;background:#0a1230;aspect-ratio:16/9;position:relative">
+            <sc-if value="{{ v.playing }}" hint-placeholder-val="{{ false }}">
+              <iframe src="{{ v.embed }}" title="Depoimento de aluno do CEL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" style="position:absolute;inset:0;width:100%;height:100%;border:0"></iframe>
+            </sc-if>
+            <sc-if value="{{ v.idle }}" hint-placeholder-val="{{ true }}">
+              <button onClick="{{ v.play }}" aria-label="Assistir depoimento" style="all:unset;cursor:pointer;position:absolute;inset:0;display:flex;align-items:center;justify-content:center">
+                <img src="{{ v.thumb }}" alt="" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">
+                <span style="position:absolute;inset:0;background:rgba(3,5,13,.25)"></span>
+                <span style="position:relative;width:72px;height:72px;border-radius:50%;background:#003bff;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(0,0,0,.35)"><span style="width:0;height:0;border-left:20px solid #ffffff;border-top:12px solid transparent;border-bottom:12px solid transparent;margin-left:5px"></span></span>
+              </button>
+            </sc-if>
+          </div>
+          <a href="{{ v.watch }}" target="_blank" rel="noopener" style="align-self:center;font-size:13px;color:#6b7186">Não carregou? Assistir no YouTube ↗</a>
+        </div>
+      </sc-for>
+    </div>
+    <a href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:16px 28px;background:#003bff;color:#ffffff;font:700 16px/1.3 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none;width:100%;max-width:400px" style-hover="background:#0030d6">Quero o método por R$197</a>
+  </div>
+</section>
+
+<!-- 11 PREÇO -->
+<section data-screen-label="11 Preço" ref="{{ offerRef }}" style="padding:0 20px clamp(72px,10vw,128px)">
+  <div style="max-width:960px;margin:0 auto;display:flex;flex-direction:column;gap:40px">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center">
+      <span style="font-size:15px;color:#7a8095">Preço</span>
+      <h2 style="font-weight:700;font-size:clamp(34px,5vw,52px);line-height:1.08;letter-spacing:-.035em">Faça sua inscrição <br><span style="color:#8a90a3">agora mesmo</span></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,360px),1fr));gap:24px">
+      <div style="display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;padding:clamp(32px,5vw,48px) clamp(20px,4vw,40px);background:#0a1230;color:#ffffff;border-radius:14px">
+        <span style="font-size:17px;color:#b7bfd8">De <span style="text-decoration:line-through">R$997</span> por apenas</span>
+        <span style="font-weight:700;font-size:clamp(56px,8vw,76px);line-height:1;letter-spacing:-.04em" data-count="197" data-prefix="R$">R$197</span>
+        <span style="font-size:16px;color:#b7bfd8">ou 12x de R$19,70 no cartão</span>
+        <a data-pulse="" href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;text-align:center;min-height:58px;padding:16px 28px;margin-top:12px;background:#003bff;color:#ffffff;font:700 16px/1.3 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none;width:100%" style-hover="background:#1a4fff">Quero o método por R$197</a>
+        <span style="font-size:12px;color:#8f9bc4">Compra segura via Hotmart · Cartão, Pix ou boleto</span>
+        <span style="font-size:13px;color:#b7bfd8;margin-top:6px">75 aulas · 10 masterclasses · Grupo no Telegram · Acesso por 1 ano</span>
+      </div>
+      <div style="display:flex;flex-direction:column;justify-content:center;gap:16px;padding:clamp(28px,4vw,44px);background:#ffffff;border:1px dashed #cfd3dc;border-radius:14px">
+        <h3 style="font-weight:700;font-size:clamp(28px,3vw,34px);letter-spacing:-.025em">Risco zero</h3>
+        <p style="color:#7a8095;text-wrap:pretty">O prazo legal é de 7 dias. <span style="color:#151a2b">Eu te dou 15</span>, porque confio no que está aqui dentro.</p>
+        <p style="color:#7a8095;text-wrap:pretty"><span style="color:#151a2b">É simples:</span> se achar que não é pra você, pede o reembolso pela Hotmart e recebe 100% do valor. Sem perguntas.</p>
+        <p style="color:#7a8095">O risco é todo meu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 FAQ -->
+<section data-screen-label="12 FAQ" style="padding:0 20px clamp(72px,10vw,112px)">
+  <div style="max-width:960px;margin:0 auto;display:flex;flex-direction:column;gap:40px">
+    <div style="display:flex;flex-direction:column;gap:8px;text-align:center">
+      <span style="font-size:15px;color:#7a8095">Dúvidas</span>
+      <h2 style="font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.03em">Ainda está com dúvidas?</h2>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <sc-for list="{{ faq }}" as="f" hint-placeholder-count="8">
+        <div style="background:#eef0f4;border-radius:12px">
+          <button onClick="{{ f.toggle }}" style="all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:clamp(12px,4vw,48px);width:100%;min-height:76px;padding:20px clamp(18px,3vw,36px)">
+            <span style="flex:none;font-size:13px;color:#6b7186;font-variant-numeric:tabular-nums">{{ f.n }}</span>
+            <span style="flex:1;font-weight:700;font-size:clamp(17px,1.6vw,19px);letter-spacing:-.01em;line-height:1.35">{{ f.q }}</span>
+            <span style="flex:none;font-size:24px;line-height:1;color:#6b7186">{{ f.icon }}</span>
+          </button>
+          <sc-if value="{{ f.open }}" hint-placeholder-val="{{ false }}">
+            <p style="padding:0 clamp(20px,3vw,36px) 22px clamp(18px,calc(3vw + 30px + 4vw),132px);color:#3d4357;text-wrap:pretty">{{ f.a }}</p>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<footer data-screen-label="13 Rodapé" style="display:flex;flex-direction:column;align-items:center;gap:14px;padding:48px 20px calc(56px + {{ footerPad }});border-top:1px solid #e2e5eb;text-align:center;font-size:13px;line-height:1.7;color:#7a8095">
+  <img src="./assets/cel-logo-preto.svg" alt="CEL — Como Empreender Lucrando" style="height:48px;width:auto;margin-bottom:6px">
+  <p>© 2026 CEL · Como Empreender Lucrando · Felipe Winston</p>
+</footer>
+
+<sc-if value="{{ stickyVisible }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(10,18,48,.96)">
+    <a href="{{ checkoutUrl }}" style="display:flex;align-items:center;justify-content:center;min-height:56px;background:#003bff;color:#ffffff;font:700 15px/1.2 Roboto,sans-serif;letter-spacing:.03em;border-radius:6px;text-decoration:none">Quero o método por R$197</a>
+  </div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;headline&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Emprego que paga mal&quot;,&quot;14 horas por dia&quot;,&quot;8 pilares&quot;],&quot;default&quot;:&quot;Emprego que paga mal&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Copy&quot;},&quot;checkoutUrl&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Conversão&quot;},&quot;stickyCta&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Conversão&quot;},&quot;showBonus&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Seções&quot;}}">
+const PILARES = [
+  ['Clientes', 'Descubra quais clientes dão lucro — e quais só dão trabalho e corroem sua margem.'],
+  ['Concorrentes', 'Saiba quem realmente disputa o seu mercado e em que terreno você ganha.'],
+  ['Vantagem competitiva', 'Construa um diferencial que o concorrente não copia no mês seguinte.'],
+  ['Escalabilidade', 'Cresça o lucro sem crescer as suas horas.'],
+  ['Recorrência', 'Receita previsível, pra parar de começar todo mês do zero.'],
+  ['Necessidades ocultas', 'O que o seu mercado precisa, ninguém entrega — e paga caro por isso.'],
+  ['Barreira de entrada', 'Proteja o que você construiu de quem quer copiar.'],
+  ['Expansão digital', 'Mais clientes sem depender só de indicação.']
+];
+const FAQ = [
+  ['Quanto tempo por semana eu preciso dedicar?', 'As aulas têm cerca de 5 minutos. Com 15 a 20 minutos por dia, você conclui um pilar por semana. O ritmo é seu — o acesso dura 1 ano.'],
+  ['Serve para a minha empresa? E se ela for pequena?', 'Serve para quem já tem empresa em operação e equipe e quer lucrar mais sem crescer as próprias horas. O porte muda os números, não a lógica dos pilares.'],
+  ['O conteúdo é ao vivo?', 'Não. As aulas são gravadas e ficam disponíveis na área de membros da Hotmart para você assistir quando quiser.'],
+  ['E se eu comprar e não gostar?', 'Você tem 15 dias de garantia incondicional. Pede o reembolso pela Hotmart e recebe 100% do valor.'],
+  ['Como recebo o acesso?', 'Logo após a confirmação do pagamento, você recebe por e-mail o acesso à área de membros e o link do grupo no Telegram. No Pix e no cartão, a liberação é imediata; no boleto, após a compensação.'],
+  ['Por quanto tempo terei acesso?', 'Por 1 ano, a todo o conteúdo: aulas, masterclasses e grupo.'],
+  ['Quais as formas de pagamento?', 'Cartão de crédito, Pix ou boleto — processamento seguro pela Hotmart.'],
+  ['É o mesmo conteúdo da mentoria do Felipe?', 'É o núcleo do mesmo método, a Estratégia WIN. A mentoria acrescenta acompanhamento individual e encontros ao vivo; o CEL é o caminho para você aplicar sozinho.']
+];
+class Component extends DCLogic {
+  state = { pil: -1, faq: -1, pastOffer: false, vid: -1 };
+  offerRef = React.createRef();
+  componentDidMount() {
+    this.onScroll = () => {
+      const el = this.offerRef.current;
+      if (!el) return;
+      const past = el.getBoundingClientRect().top < window.innerHeight * 0.4 && window.innerWidth < 768;
+      if (past !== this.state.pastOffer) this.setState({ pastOffer: past });
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onScroll);
+    this.onScroll();
+    this.initAnim();
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onScroll);
+    if (this.ctx) this.ctx.revert();
+  }
+  initAnim() {
+    const go = () => {
+      const g = window.gsap, ST = window.ScrollTrigger;
+      if (!g || !ST) return setTimeout(go, 60);
+      if (this.animDone) return; this.animDone = true;
+      g.registerPlugin(ST);
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const st = (el, start) => ({ trigger: el, start: start || 'top 85%' });
+      this.ctx = g.context(() => {
+        const hero = document.querySelector('[data-screen-label="01 Hero"]');
+        if (hero) {
+          g.from(hero.children[0].children, { y: 32, opacity: 0, duration: .9, ease: 'power3.out', stagger: .09, delay: .1 });
+          const img = hero.querySelector('img[alt="Felipe Winston"]');
+          if (img) {
+            g.fromTo(img, { scale: 1.2 }, { scale: 1.06, duration: 1.8, ease: 'power2.out' });
+            g.to(img, { yPercent: 10, ease: 'none', scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: true } });
+          }
+        }
+        const mq = document.querySelector('[data-marquee]');
+        if (mq) {
+          const tw = g.to(mq, { xPercent: -50, repeat: -1, duration: 28, ease: 'none' });
+          ST.create({ onUpdate: self => {
+            const v = Math.min(Math.abs(self.getVelocity()) / 250, 5);
+            g.to(tw, { timeScale: (self.direction < 0 ? -1 : 1) * (1 + v), duration: .25, overwrite: true });
+            g.to(tw, { timeScale: 1, duration: 1.2, delay: .3 });
+          } });
+        }
+        document.querySelectorAll('section[data-screen-label]:not([data-screen-label="01 Hero"]) h2').forEach(h =>
+          g.from(h, { y: 44, opacity: 0, duration: 1, ease: 'power3.out', scrollTrigger: st(h) }));
+        document.querySelectorAll('section[data-screen-label] *').forEach(el => {
+          if (getComputedStyle(el).display !== 'grid' || !el.children.length) return;
+          g.from(el.children, { y: 48, opacity: 0, duration: .9, ease: 'power3.out', stagger: .12, scrollTrigger: st(el) });
+        });
+        const virada = document.querySelector('[data-screen-label="03 Virada"]');
+        if (virada) g.from(virada.children[0].children, { x: -30, opacity: 0, duration: .8, ease: 'power2.out', stagger: .1, scrollTrigger: st(virada, 'top 70%') });
+        document.querySelectorAll('[data-panel]').forEach(p =>
+          g.from(p, { y: 70, scale: .96, opacity: 0, duration: 1.1, ease: 'power3.out', scrollTrigger: st(p) }));
+        const groups = new Map();
+        document.querySelectorAll('[data-bar]').forEach(b => { const k = b.closest('section'); groups.set(k, [...(groups.get(k) || []), b]); });
+        groups.forEach((bars, sec) => g.from(bars, { scaleY: 0, transformOrigin: '50% 100%', duration: .9, ease: 'power3.out', stagger: .07, scrollTrigger: st(bars[0], 'top 90%') }));
+        document.querySelectorAll('[data-count]').forEach(el => {
+          const o = { v: 0 }, to = +el.dataset.count, pre = el.dataset.prefix || '', suf = el.dataset.suffix || '';
+          g.to(o, { v: to, duration: 1.6, ease: 'power2.out', scrollTrigger: st(el, 'top 90%'), onUpdate: () => { el.textContent = pre + Math.round(o.v) + suf; } });
+        });
+        const pills = document.querySelectorAll('[data-pill]');
+        if (pills.length) g.from(pills, { scale: .7, opacity: 0, duration: .6, ease: 'back.out(1.8)', stagger: .08, scrollTrigger: st(pills[0], 'top 90%') });
+        document.querySelectorAll('[data-pulse]').forEach(b =>
+          g.fromTo(b, { boxShadow: '0 0 0 0 rgba(0,59,255,.55)' }, { boxShadow: '0 0 0 16px rgba(0,59,255,0)', duration: 1.6, repeat: -1, ease: 'power1.out' }));
+      });
+      setTimeout(() => ST.refresh(), 400);
+    };
+    go();
+  }
+  withUtms(base) {
+    try {
+      const src = new URLSearchParams(window.location.search);
+      if (!src.toString()) return base;
+      const u = new URL(base);
+      const keys = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','src','sck','xcod','fbclid','gclid','ttclid'];
+      keys.forEach(k => { const v = src.get(k); if (v && !u.searchParams.has(k)) u.searchParams.set(k, v); });
+      // Hotmart rastreia por src/sck: espelha utm_source/utm_campaign se não vierem explícitos
+      if (!u.searchParams.has('src') && src.get('utm_source')) u.searchParams.set('src', src.get('utm_source'));
+      if (!u.searchParams.has('sck')) {
+        const sck = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].map(k => src.get(k)).filter(Boolean).join('|');
+        if (sck) u.searchParams.set('sck', sck);
+      }
+      return u.toString();
+    } catch (e) { return base; }
+  }
+  renderVals() {
+    const h = this.props.headline ?? 'Emprego que paga mal';
+    const pad = (i, n) => String(i + 1).padStart(n, '0');
+    return {
+      hA: h === 'Emprego que paga mal', hB: h === '14 horas por dia', hC: h === '8 pilares',
+      checkoutUrl: this.withUtms(this.props.checkoutUrl || 'https://pay.hotmart.com/W94393903V?off=9bv66jk3&bid=1791463181076'),
+      showBonus: this.props.showBonus ?? true,
+      stickyVisible: (this.props.stickyCta ?? true) && this.state.pastOffer,
+      offerRef: this.offerRef,
+      footerPad: this.state.pastOffer ? '76px' : '0px',
+      videos: ["CbI_7omGGMM","k6R4FOuv41o","AP6MTD4Jp8c"].map((id, i) => ({
+        thumb: 'https://i.ytimg.com/vi/' + id + '/hqdefault.jpg',
+        embed: 'https://www.youtube.com/embed/' + id + '?autoplay=1&rel=0&playsinline=1',
+        watch: 'https://www.youtube.com/watch?v=' + id,
+        playing: this.state.vid === i, idle: this.state.vid !== i,
+        play: () => this.setState({ vid: i })
+      })),
+      steps: PILARES.map((_, i) => ({ n: i + 1, h: (12 + i * 11.5) + '%', bg: i === 7 ? '#003bff' : i % 2 ? '#c7d3ff' : '#dfe6ff' })),
+      pilares: PILARES.map(([t, d], i) => ({ n: pad(i, 2), t, d, open: this.state.pil === i, icon: this.state.pil === i ? '−' : '+', toggle: () => this.setState(s => ({ pil: s.pil === i ? -1 : i })) })),
+      faq: FAQ.map(([q, a], i) => ({ n: pad(i, 3), q, a, open: this.state.faq === i, icon: this.state.faq === i ? '−' : '+', toggle: () => this.setState(s => ({ faq: s.faq === i ? -1 : i })) }))
+    };
+  }
+}
+</script>
+</body>
+</html>
