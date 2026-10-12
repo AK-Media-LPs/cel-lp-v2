@@ -14,6 +14,7 @@ Import do repo · Framework Preset **Other** · Root Directory na raiz · sem Bu
 - React, ReactDOM, Babel (7.29.0, SRI conferido) e GSAP/ScrollTrigger (3.13.0) servidos de `vendor/`, com `defer` antes do `support.js`; `<style>x-dc{display:none}</style>`.
 - Removido o marcador amarelo [A VALIDAR] do bônus "Diagnóstico dos 8 pilares" (validado pelo cliente).
 - `DEPLOY.md` do export movido para `docs-handoff/DEPLOY-v2.md`; adicionados `vercel.json`, `.gitignore`, `robots.txt` e `favicon.ico`.
+- Ajustes mobile (<=767px): bloco `<style>` no `<head>` estático centraliza títulos e textos dos blocos (hero, problema, solução, apresentação, método, bônus, preço), logo do hero centralizado, links de vídeo com área de toque de 44px e rótulo do gráfico com 12px. Listas, comparação, pilares e FAQ ficam alinhados à esquerda.
 - Observação: 404 inofensivo no console (`{{ v.embed }}`) vem do template do export, sem efeito na página.
 
 ## Testado localmente (08/10/2026)

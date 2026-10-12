@@ -21,6 +21,26 @@
 <meta name="twitter:image" content="https://cel-lp-v2.vercel.app/assets/og-cel.jpg">
 <link rel="icon" href="/favicon.ico">
 <style>x-dc{display:none!important}</style>
+<style>
+/* Mobile (<=767px): títulos e blocos de texto centralizados, toques maiores, fontes mínimas */
+@media (max-width:767px){
+h1,h2,h3{text-align:center!important;margin-left:auto!important;margin-right:auto!important}
+[data-screen-label="01 Hero"] img:first-of-type{align-self:center!important}
+[data-screen-label="01 Hero"] p,
+[data-screen-label="02 Problema"] p,
+[data-screen-label="03 Virada"] p,[data-screen-label="03 Virada"] span,
+[data-screen-label="04 Apresentação"] p,
+[data-screen-label="05 Método"] p,
+[data-screen-label="09 Bônus"] p,[data-screen-label="09 Bônus"] span,
+[data-screen-label="11 Preço"] p,
+[data-screen-label="08 Pilares"] p{text-align:center!important;margin-left:auto!important;margin-right:auto!important}
+[data-screen-label="08 Pilares"] p span{display:inline}
+[data-screen-label="04 Apresentação"] div[style*="flex-wrap:wrap"],[data-screen-label="08 Pilares"] div[style*="flex-wrap:wrap"]{justify-content:center!important}
+[data-screen-label="05 Método"] div[style*="font:700 11px"]{font-size:12px!important}
+[data-screen-label="10 Depoimentos"] a[href*="youtube"]{display:inline-flex!important;align-items:center;min-height:44px;padding:0 8px}
+[data-screen-label="13 Rodapé"] a{display:inline-block;padding:10px 4px}
+}
+</style>
 <script src="vendor/react.production.min.js" defer></script>
 <script src="vendor/react-dom.production.min.js" defer></script>
 <script src="vendor/babel.min.js" defer></script>
