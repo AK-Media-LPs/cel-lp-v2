@@ -15,6 +15,7 @@ Import do repo · Framework Preset **Other** · Root Directory na raiz · sem Bu
 - Removido o marcador amarelo [A VALIDAR] do bônus "Diagnóstico dos 8 pilares" (validado pelo cliente).
 - `DEPLOY.md` do export movido para `docs-handoff/DEPLOY-v2.md`; adicionados `vercel.json`, `.gitignore`, `robots.txt` e `favicon.ico`.
 - Ajustes mobile (<=767px): bloco `<style>` no `<head>` estático centraliza títulos e textos dos blocos (hero, problema, solução, apresentação, método, bônus, preço), logo do hero centralizado, links de vídeo com área de toque de 44px e rótulo do gráfico com 12px. Listas, comparação, pilares e FAQ ficam alinhados à esquerda.
+- Meta Pixel (ID 426921048860579, PageView) inserido no `<head>` estático, direto no HTML (não via GTM).
 - Removido o link "Não carregou? Assistir no YouTube" abaixo dos vídeos de depoimento.
 - Removido o bônus "Grupo de donos no Telegram" (card, selo de preço, FAQ e meta description ajustados); o grid de bônus reflui para 2 cards.
 - Observação: 404 inofensivo no console (`{{ v.embed }}`) vem do template do export, sem efeito na página.
